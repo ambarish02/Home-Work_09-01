@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopper.t</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header {
+            font-size: 21px;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 25px;
+            overflow: hidden;
+        }
+        .brand-title {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        header span {
+            margin-right: 25px;
+        }
+        article {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .bi-lightning-fill {
+            color: goldenrod;
+        }
+        nav ul {
+            list-style: none;
+        }
+        section {
+            display: grid;
+            grid-template-columns: 2fr 10fr;
+        }      
+        ul li {
+           background-color: #ffd814;
+           color: black;
+           padding: 20px;
+           margin-top: 5px;
+           margin-left: -20px;
+           width: 100px;
+           text-align: center;
+           border-radius: 10px;
+           font-weight: bold;
+           
+         } 
+         ul li:hover {
+            background-color: #ffa41c;
+    
+         }
+        ul a{
+            text-decoration: none;
+            color: white;
+        }
+        iframe {
+            background-color: white;
+            overflow: auto;
+        }
+       .head {
+        color: black;
+        text-decoration: none;      
+     }
+    </style>
+</head>
+
+<body>
+   <header>
+    <div>
+        <span class="brand-title">Flipkart Seller.</span>
+    </div>
+    <div>
+        <nav>
+            <a class="head" target="frameBody"
+                href="home.html"><span>
+                Home</span></a>
+                <a class="head" target="frameBody"
+                href="mobiles.html"><span>
+                Mobiles</span></a> <a class="head" target="frameBody"
+                href="watches.html"><span>
+                Watches</span></a> <a class="head" target="frameBody"
+                href="television.html"><span>
+                Television</span></a>
+          
+        </nav>
+    </div>
+    <div>
+        <span class="bi bi-search"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-cart"></span>
+    </div>
+</header>
+<section>
+    <nav>
+         <ul>
+            <li>
+                <a target="frameBody"
+                href="home.html">Home</a>
+            </li>
+            <li><a target="frameBody"
+                href="mobiles.html">Mobiles</a></li>
+            <li><a target="frameBody"
+                href="watches.html">Watches</a></li>
+            <li><a target="frameBody"
+                href="television.html">Television</a></li>
+        </ul>
+    </nav>
+    <main>
+        <iframe src="home.html" name="frameBody" width="100%" height="550px" frameborder="0"></iframe>
+    </main>
+</section>
+</article>
+</body>
+</html>

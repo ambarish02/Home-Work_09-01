@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        .header-main{
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: space-around;
+        padding: 12px;
+        background-color: rgb(2, 11, 41);
+        color: white;
+        margin-top: -5px;
+        }
+        .header-main span {
+            margin-right: 15px;
+        }
+        section {
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+            grid-gap: 20px;
+            padding-left: 25px;
+            padding-right: 25px;
+            margin-top: -300px;
+        }
+        .card {
+            height: 400px;
+            padding: 5px;
+            background-color: white;
+            box-shadow: 2px 2px 2px gray;
+        }
+        .row {
+            display: grid;
+            grid-template-columns: 6fr 6fr;
+            grid-gap: 10px;
+            font-family: arial;
+            font-size: 15px;
+            height: 170px;
+        }
+        .row img {
+            width: 100%;
+        }
+        .card-header {
+            padding: 4px;
+        }
+        .card-title {
+            font-family: arial;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .card-title-1 {
+            padding: 5px;
+            padding-bottom: 30px;
+            font-family: arial;
+            font-weight: bold;
+            font-size: 21px;
+        }
+        .card-title-4 {
+            margin-bottom: 30px;
+            font-family: arial;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        .card-body {
+            height: 320px;
+        }
+        .card-footer {
+            padding: 10px;
+        }
+        .footer-title {
+            font-family: arial;
+            font-size: 15px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../public/images/flipkart-header.jpg">
+        </div>
+        <div class="header-main">
+            <nav>
+                <span>Fresh</span>
+                <span>Watches</span>
+                <span>Sell</span>
+                <span>Best Sellers</span>
+                <span>Today's Deals</span>
+                <span>Mobiles</span>
+                <span>Electronics</span>
+                <span>Customer Service</span>
+                <span>Prime <span class="bi bi-chevron-compact-down"></span></span>
+            </nav>
+        </div>
+        <div>
+            <img src="../public/images/flipkart-background.jpg" width="100%">
+        </div>
+    </header>
+    <section>
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">Up to 60% off | Car, bike parts & accessories</span>
+            </div>
+            <div>
+                <img src="../public/images/a.jpg" width="100%" height="300px">
+            </div>
+            <br>
+            <div class="card-footer">
+                <span class="footer-title">see more..</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title-1" >Revamp your home in style</span>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                     <div>
+                       <img src="../public/images/a1.jpg">
+                       <p>Cushion Cover, Bedsheets & more</p>
+                     </div>
+                     <div>
+                        <img src="../public/images/a2.jpg">
+                       <p>Vases, Decor & more</p>
+                     </div>
+                   </div>
+                <div class="row">
+                    <div>
+                        <img src="../public/images/a3.jpg">
+                        <p>Home Storage</p>
+                    </div>
+                    <div>
+                        <img src="../public/images/a4.jpg">
+                        <p>Lighting Solution</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="card-footer">
+                <span class="footer-title">see more..</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">Up to 60% off | Styles for men</span>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div>
+                        <img src="../public/images/a5.jpg">
+                        <p>Clothing</p>
+                    </div>
+                    <div>
+                        <img src="../public/images/a6.jpg">
+                        <p>Footwear</p>
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div>
+                        <img src="../public/images/a7.jpg">
+                        <p>Watches</p>
+                    </div>
+                    <div>
+                        <img src="../public/images/a8.jpg">
+                        <p>Bags and Wallets</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="card-footer">
+                <span class="footer-title">see more..</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title-4">Try Prime Today</span>
+                <br><br>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div>
+
+                        <img src="../public/images/a13.jpg">
+                        <p>Free 1-day delivery</p>
+                    </div>
+                    <div>
+                        <img src="../public/images/a14.jpg">
+                        <p>Latest movies and TV shows</p>
+                    </div>
+                 </div>
+                 <div class="row">
+                    <div>
+                        <img src="../public/images/a15.jpg">
+                        <p>Ad-free Music</p>
+                    </div>
+                    <div>
+                        <img src="../public/images/a16.jpg">
+                        <p>Get unlimited 5% cashback on shopping</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="card-footer">
+                <span class="footer-title">see more..</span>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
